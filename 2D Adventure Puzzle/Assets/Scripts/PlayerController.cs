@@ -21,10 +21,15 @@ public class PlayerController : MonoBehaviour
     public Vector2 respawnPosition;
     public bool respawnCoActive;
 
+    protected Joystick joystick;
+    protected JoyconJump joyJump;
+
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1;
+        joystick = FindObjectOfType<Joystick>();
+        joyJump = FindObjectOfType<JoyconJump>();
         rigidbody.GetComponent<Rigidbody2D>();
         myAnimator = GetComponent<Animator>();
         body = GetComponent<CapsuleCollider2D>();
@@ -37,7 +42,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //Function to move the player
-        MainMovement();
+        MainMovementMobile();
+       // MainMovement();
 
         //Check if the player is on the ground
         if (!feet.IsTouchingLayers(LayerMask.GetMask("Ground")))
@@ -45,12 +51,43 @@ public class PlayerController : MonoBehaviour
             //If not on ground does nothing
             return;
         }
-            MainJump();
-           
-
-
-
+        MobileJump();
+            //MainJump();
     }
+
+
+    public void MainMovementMobile()
+    {
+        //rigidbody.velocity = new Vector2(joystick.Horizontal * characterSpeed, rigidbody.velocity.y);
+
+        //Check if the player move right
+        if (joystick.Horizontal > 0f)
+        {
+            //Move right
+            rigidbody.velocity = new Vector2(joystick.Horizontal * characterSpeed, rigidbody.velocity.y);
+            //Rotate the char depending of the side
+            transform.localScale = new Vector2(localScale, localScale);
+        }
+        else if (joystick.Horizontal < 0f)
+        {
+            //Move left
+            rigidbody.velocity = new Vector2(joystick.Horizontal * characterSpeed, rigidbody.velocity.y);
+            //Rotate the char depending of the side
+            transform.localScale = new Vector2(-localScale, localScale);
+        }
+        else
+        // If no movement
+        {
+            rigidbody.velocity = new Vector2(0, rigidbody.velocity.y);
+        }
+        //Value of the animator
+        myAnimator.SetFloat("Speed", Mathf.Abs(rigidbody.velocity.x));
+        myAnimator.SetBool("onGround", onGround);
+    }
+
+
+
+
 
     public void MainMovement()
     {
@@ -94,6 +131,18 @@ public class PlayerController : MonoBehaviour
             gm.Respawn();
         }
     }
+
+    private void MobileJump()
+    {
+        //Moment the key is press
+        if (joyJump.Pressed)
+        {
+            rigidbody.velocity = new Vector2(rigidbody.velocity.x, jumpPower);
+            jumpSound.Play();
+        }
+    }
+
+
 
     private void MainJump()
     {
