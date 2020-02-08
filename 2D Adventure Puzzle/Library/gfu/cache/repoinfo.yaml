@@ -13,26 +13,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-02-07T19:54:18.473-05:00
-  initializedAtString: 2020-02-07T19:54:18.473-05:00
+  lastUpdatedAtString: 2020-02-07T20:10:09.175-05:00
+  initializedAtString: 2020-02-07T20:10:09.175-05:00
   currentGitRemote:
     name: origin
-    url: https://github.com/MLaroucheLaSalleMtl/Team-01-7756.git
+    url: https://github.com/iTreby/LittleBean-Mobile.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Robert
+    tracking: origin/Robert
   currentConfigBranch:
-    name: master
+    name: Robert
     remote:
       name: origin
-      url: https://github.com/MLaroucheLaSalleMtl/Team-01-7756.git
-    trackingBranch: master
+      url: https://github.com/iTreby/LittleBean-Mobile.git
+    trackingBranch: Robert
   currentConfigRemote:
     name: origin
-    url: https://github.com/MLaroucheLaSalleMtl/Team-01-7756.git
+    url: https://github.com/iTreby/LittleBean-Mobile.git
   currentHead: 
