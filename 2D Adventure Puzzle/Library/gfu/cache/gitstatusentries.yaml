@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2020-02-07T19:58:23.276-05:00
+  initializedAtString: 2020-02-07T19:54:18.669-05:00
+  entries:
+  - path: 2D Adventure Puzzle\Assets\Cinemachine\Base.meta~refs\remotes\origin.meta
+    fullPath: C:\Users\Robert\Desktop\LittleBeanGame\Team-01-7756\2D Adventure Puzzle\Assets\Cinemachine\Base.meta~refs\remotes\origin.meta
+    projectPath: Assets\Cinemachine\Base.meta~refs\remotes\origin.meta
+    originalPath: 
+    status: 5
+    staged: 0
+  - path: 2D Adventure Puzzle\Assets\Cinemachine\Base\Runtime.meta
+    fullPath: C:\Users\Robert\Desktop\LittleBeanGame\Team-01-7756\2D Adventure Puzzle\Assets\Cinemachine\Base\Runtime.meta
+    projectPath: Assets\Cinemachine\Base\Runtime.meta
+    originalPath: 
+    status: 5
+    staged: 0
