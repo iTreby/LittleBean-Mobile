@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class DoorExit : MonoBehaviour
 {
     public GameObject panel;
+    public GameObject jumpButton;
+    public GameObject joyStick;
     [SerializeField] string levelToUnlock;
 
     [SerializeField] int nextLevel;
@@ -28,6 +30,8 @@ public class DoorExit : MonoBehaviour
         {
             PlayerPrefs.SetInt(levelToUnlock, 1);
             PlayerPrefs.SetInt("currentUnlockedLevel", nextLevel);
+            jumpButton.SetActive(false);
+            joyStick.SetActive(false);
             panel.SetActive(true);
             Time.timeScale = 0;
         }
