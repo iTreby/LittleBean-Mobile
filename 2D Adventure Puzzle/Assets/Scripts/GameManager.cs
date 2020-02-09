@@ -136,6 +136,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(level);
     }
 
+    public void LoadCredit()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
 
     public void Option()
     {

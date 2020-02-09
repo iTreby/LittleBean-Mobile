@@ -20,7 +20,7 @@ public class CreditToMenu : MonoBehaviour
 
     IEnumerator SwitchMenu()
     {
-        yield return new WaitForSeconds(15f);
+        yield return new WaitForSeconds(8f);
         SceneManager.LoadScene(1);
     }
 

@@ -439,6 +439,16 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 628706984}
+    - target: {fileID: 3166895801286242219, guid: bd0a306611837e247875183f10a30068,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118123278288727607, guid: bd0a306611837e247875183f10a30068,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 676596335346150401, guid: bd0a306611837e247875183f10a30068,
         type: 3}
       propertyPath: m_Controller
@@ -454,11 +464,6 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ed397e1bb0e8abe458e17e5cb30b4afc, type: 2}
-    - target: {fileID: 3166895801286242219, guid: bd0a306611837e247875183f10a30068,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd0a306611837e247875183f10a30068, type: 3}
 --- !u!1 &683069278 stripped
@@ -479,6 +484,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f3cd8f941a08e64d94d04118bc35198, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &683069280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 945938947658748276, guid: bd0a306611837e247875183f10a30068,
+    type: 3}
+  m_PrefabInstance: {fileID: 683069277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &826089738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5976131462035640939, guid: 9857e556ff260522fbaf5a85de60247d,
@@ -543,6 +554,16 @@ PrefabInstance:
       propertyPath: nextLevel
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3631117992774304006, guid: c8db28a70bcb4a645a94a67a4d6b53ac,
+        type: 3}
+      propertyPath: jumpButton
+      value: 
+      objectReference: {fileID: 1342445129}
+    - target: {fileID: 3631117992774304006, guid: c8db28a70bcb4a645a94a67a4d6b53ac,
+        type: 3}
+      propertyPath: joyStick
+      value: 
+      objectReference: {fileID: 683069280}
     - target: {fileID: 4473539189134539772, guid: c8db28a70bcb4a645a94a67a4d6b53ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -912,6 +933,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0179bbe788f923f44bbd39a332ab3e32, type: 3}
+--- !u!1 &1342445129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6112894397844684096, guid: bd0a306611837e247875183f10a30068,
+    type: 3}
+  m_PrefabInstance: {fileID: 683069277}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1742476950 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6282531360577912655, guid: 0179bbe788f923f44bbd39a332ab3e32,
