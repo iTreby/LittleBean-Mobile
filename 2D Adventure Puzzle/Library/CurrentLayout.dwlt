@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 398}
   m_MaxSize: {x: 18008, y: 14048}
   vertical: 0
-  controlID: 8938
+  controlID: 6569
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 398}
   m_MaxSize: {x: 10004, y: 14048}
   vertical: 1
-  controlID: 9176
+  controlID: 6570
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,10 +188,10 @@ MonoBehaviour:
     y: 0
     width: 1025
     height: 457
-  m_MinSize: {x: 208, y: 124}
-  m_MaxSize: {x: 8008, y: 4024}
+  m_MinSize: {x: 204, y: 124}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 9177
+  controlID: 6571
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,17 +331,17 @@ MonoBehaviour:
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 0500000000000000000000000b000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 0500000000000000000000000a000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -268.5
-    m_HBaseRangeMax: 268.5
-    m_VBaseRangeMin: -151.2
-    m_VBaseRangeMax: 151.2
+    m_HBaseRangeMin: -1024
+    m_HBaseRangeMax: 1024
+    m_VBaseRangeMin: -576
+    m_VBaseRangeMax: 576
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -361,7 +361,7 @@ MonoBehaviour:
       y: 17
       width: 537
       height: 420
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 0.26220703, y: 0.26220703}
     m_Translation: {x: 268.5, y: 210}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -369,12 +369,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -268.5
-      y: -210
-      width: 537
-      height: 420
+      x: -1024
+      y: -800.89386
+      width: 2048
+      height: 1601.7877
     m_MinimalGUI: 1
-  m_defaultScale: 1
+  m_defaultScale: 0.26220703
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
   m_LastWindowPixelSize: {x: 671.25, y: 546.25}
@@ -411,9 +411,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1af9ffff
-      m_LastClickedID: -1766
-      m_ExpandedIDs: 80f7ffff90f7ffffa4f8ffffecf8ffff1af9ffff2cf9ffffd4fbffff664f0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d8b3ffffb2bfffffb6bfffffc4bfffff42c0ffff44c2ffff12c3ffff64c5ffffa8c7ffff64cbffff84cdffff38cfffffaccfffff2ad0ffff82d8ffffd8ecffff02eeffff1aeeffff2ceeffff94eeffff80faffff5efbffffaafbffffc2fbffffd4fbfffffa5c00003c5d00009e5d0000025e0000a669000004790000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -469,9 +469,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 637.0265, y: 66.42756, z: 0}
+    m_Target: {x: -10.370002, y: 0.8777857, z: -0.071777344}
     speed: 2
-    m_Value: {x: 637.0265, y: 66.42756, z: 0}
+    m_Value: {x: -10.370002, y: 0.8777857, z: -0.071777344}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -503,9 +503,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 250.51947
+    m_Target: 79.982376
     speed: 2
-    m_Value: 250.51947
+    m_Value: 79.982376
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -682,10 +682,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 71}
-    m_SelectedIDs: a03e0000
-    m_LastClickedID: 16032
-    m_ExpandedIDs: 000000009e27000036500000ffffff7f
+    scrollPos: {x: 0, y: 120}
+    m_SelectedIDs: 183f0000
+    m_LastClickedID: 16152
+    m_ExpandedIDs: 00000000be270000183f0000243f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,7 +713,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e270000365000003a500000ffffff7f
+    m_ExpandedIDs: 00000000be270000183f0000243f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -796,7 +796,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -18780
+  m_LastSelectedObjectID: -16498
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -852,9 +852,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1192.8
+    x: 1259.2001
     y: 73.6
-    width: 341
+    width: 275
     height: 711
   m_PersistentViewDataDictionary: {fileID: 0}
   progressMessageClearTime: -1
@@ -1101,15 +1101,167 @@ MonoBehaviour:
     currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
-    currentBranch: '[CharacterMovement]'
+    currentBranch: '[Robert]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - 2D Adventure Puzzle
+        - 2D Adventure Puzzle\Library
+        - 2D Adventure Puzzle\Library\gfu
+        - 2D Adventure Puzzle\Library\gfu\cache
+        - 2D Adventure Puzzle\Library\StateCache
+        - 2D Adventure Puzzle\Library\StateCache\Hierarchy
+        - 2D Adventure Puzzle\Temp
+        - 2D Adventure Puzzle\Temp\__Backupscenes
+        values:
+        - path: 2D Adventure Puzzle
+          label: 2D Adventure Puzzle
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: 2D Adventure Puzzle\Library
+          label: Library
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: 2D Adventure Puzzle\Library\gfu
+          label: gfu
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: 2D Adventure Puzzle\Library\gfu\cache
+          label: cache
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: 2D Adventure Puzzle\Library\StateCache
+          label: StateCache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: 2D Adventure Puzzle\Library\StateCache\Hierarchy
+          label: Hierarchy
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: 2D Adventure Puzzle\Temp
+          label: Temp
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: 2D Adventure Puzzle\Temp\__Backupscenes
+          label: __Backupscenes
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1138,6 +1290,359 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
+      - path: 2D Adventure Puzzle
+        label: 2D Adventure Puzzle
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Library
+        label: Library
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\assetDatabase3
+        label: assetDatabase3
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\assetDatabase3
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\CurrentMaximizeLayout.dwlt
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\CurrentMaximizeLayout.dwlt
+          projectPath: Library\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\EditorInstance.json
+        label: EditorInstance.json
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\EditorInstance.json
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\EditorInstance.json
+          projectPath: Library\EditorInstance.json
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\gfu
+        label: gfu
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\gfu\cache
+        label: cache
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\gfu\cache\gitlocks.yaml
+        label: gitlocks.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\gfu\cache\gitlocks.yaml
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\gfu\cache\gitlocks.yaml
+          projectPath: Library\gfu\cache\gitlocks.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\gfu\cache\gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\gfu\cache\gitstatusentries.yaml
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\gfu\cache\gitstatusentries.yaml
+          projectPath: Library\gfu\cache\gitstatusentries.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\gfu\cache\gittrackingstatus.yaml
+        label: gittrackingstatus.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\gfu\cache\gittrackingstatus.yaml
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\gfu\cache\gittrackingstatus.yaml
+          projectPath: Library\gfu\cache\gittrackingstatus.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\gfu\cache\repoinfo.yaml
+        label: repoinfo.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\gfu\cache\repoinfo.yaml
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        label: shadercompiler-UnityShaderCompiler.exe0.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\StateCache
+        label: StateCache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\StateCache\Hierarchy
+        label: Hierarchy
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Library\StateCache\Hierarchy\a5b5f5-mainStage.json
+        label: a5b5f5-mainStage.json
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Library\StateCache\Hierarchy\a5b5f5-mainStage.json
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Library\StateCache\Hierarchy\a5b5f5-mainStage.json
+          projectPath: Library\StateCache\Hierarchy\a5b5f5-mainStage.json
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: 2D Adventure Puzzle\Temp
+        label: Temp
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Temp\__Backupscenes
+        label: __Backupscenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: 2D Adventure Puzzle\Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Temp\__Backupscenes\0.backup
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Temp\__Backupscenes\0.backup
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: 2D Adventure Puzzle\Temp\UnityLockfile
+        label: UnityLockfile
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2D Adventure Puzzle\Temp\UnityLockfile
+          fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+            Adventure Puzzle\Temp\UnityLockfile
+          projectPath: Temp\UnityLockfile
+          originalPath: 
+          status: 1
+          staged: 0
       selectedNode:
         path: 
         label: 
@@ -1157,16 +1662,93 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: 2D Adventure Puzzle\Library\assetDatabase3
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\CurrentMaximizeLayout.dwlt
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\EditorInstance.json
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Library\StateCache\Hierarchy\a5b5f5-mainStage.json
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Library\StateCache\Hierarchy\a5b5f5-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\a5b5f5-mainStage.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: 2D Adventure Puzzle\Temp\__Backupscenes\0.backup
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: 2D Adventure Puzzle\Temp\UnityLockfile
+      fullPath: C:\Users\Robert\Desktop\LittleBean Mobile Version\LittleBean-Mobile\2D
+        Adventure Puzzle\Temp\UnityLockfile
+      projectPath: Temp\UnityLockfile
+      originalPath: 
+      status: 1
+      staged: 0
+    changedFilesText: 11 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-02-07T20:10:09.175-05:00
+      updatedTimeString: 2020-02-08T18:47:13.854-05:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-02-07T21:42:42.089-05:00
+      updatedTimeString: 2020-02-08T19:13:44.333-05:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-02-07T21:40:07.886-05:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -34314,7 +34896,7 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/MLaroucheLaSalleMtl/Team-01-7756.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: CharacterMovement
@@ -34331,8 +34913,8 @@ MonoBehaviour:
     updatedTimeString: 2019-06-09T21:55:06.255-04:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2019-06-09T21:55:06.938-04:00
-    cacheType: 5
+    updatedTimeString: 2020-02-08T18:37:03.863-05:00
+    cacheType: 6
   pullButtonContent:
     m_Text: Pull
     m_Image: {fileID: 0}
@@ -34351,8 +34933,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 1
   repositoryProgressMessage: Listing changed files...
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
   connections: []
   primaryConnectionUsername: iTreby
 --- !u!114 &23
