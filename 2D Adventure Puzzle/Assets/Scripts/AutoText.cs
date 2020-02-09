@@ -57,7 +57,7 @@ public class AutoText : MonoBehaviour {
 
     void Update() {
       if (finished) {
-        if(Input.GetKeyDown(KeyCode.C) || Input.GetKeyUp(KeyCode.JoystickButton1)) {
+        if(Input.GetKeyDown(KeyCode.C) || Input.GetKeyUp(KeyCode.JoystickButton1) || Input.touchCount > 0) {
           gameObject.SetActive(false);
         }
       }
